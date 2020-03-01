@@ -1,0 +1,268 @@
+@font-face {
+	font-family: blackMaax;
+	src: url(fonts/Maax-Black.ttf);
+}
+
+@font-face {
+	font-family: boldMaax;
+	src: url(fonts/Maax-Bold.ttf);
+}
+
+@font-face {
+	font-family: mediumMaax;
+	src: url(fonts/Maax-Medium.ttf);
+}
+
+@font-face {
+	font-family: Maax;
+	src: url(fonts/Maax.ttf);
+}
+
+@font-face {
+	font-family: pbold;
+	src: url(fonts/pbold.ttf);
+}
+
+@font-face {
+	font-family: pnonebold;
+	src: url(fonts/pnonebold.ttf);
+}
+
+@font-face {
+  font-family: archia;
+  src: url(fonts/archia-regular-webfont.ttf);
+}
+
+@font-face {
+  font-family: ONU;
+  src: url(fonts/ONU.otf);
+}
+
+@font-face {
+  font-family: ONB;
+  src: url(fonts/ONB.otf);
+}
+
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("images/moukh.png");
+
+  /* Full height */
+  height: auto;
+  width: 100vw;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.menu1 { 
+
+	font-family: 'Alata', sans-serif;
+	margin-left: 5.5vw;
+	margin-top: 5vh;
+	font-size: 1vw;
+	display: inline-block;
+
+ }
+
+ .logo2 {
+
+    margin-left: 2.5vw;
+  	font-family: 'Alata', sans-serif;
+  	font-weight: 600;
+  	font-size: 4vw;
+  	margin-top: 2vh;
+    display: inline-block;
+
+ }
+
+
+.logo2-bottom{ 
+
+	text-align: center;
+	margin-top: 40vh;
+	font-size: 500%;
+
+ }
+
+ .content3 {
+  float: right;
+ 	width: 16vw;
+ 	font-family: 'Alata', sans-serif;
+ 	font-size: 0.95vw;
+ 	margin-right: 2vw;
+ 	margin-top: 2.5vh;
+ 	border: 1px solid #000;
+ 	padding: 30px;
+
+
+ }
+
+ .bottomside{ 
+ 	font-family: 'Open Sans', sans-serif;
+ 	margin-top: 45vh;
+ 	text-align: center;
+ 	font-size: 125%;
+ 	font-weight: 100;
+ 	text-decoration: underline;
+ 	-webkit-text-underline-position: under;
+    -ms-text-underline-position: below;
+    text-underline-position: under;
+ 
+  }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 300vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.picture_wrapper {
+	width: 125vw;
+	height: 100vh;
+    position: relative;
+
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50vw;
+}
+
+.area {
+	position: absolute;
+	margin-left: 50vw;
+	margin-top: 14vh;
+    width: 10vw;
+    height: 70vh;
+    background-color: rgb(188, 188, 188);
+
+}
+
+.area2 {
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: 14vh;
+    width: 10vw;
+    height: 70vh;
+    background-color: rgb(55, 55, 55);
+}
+
+.letterbox {
+	width: 100%;
+	height: 14vh;
+
+	
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.letter {
+
+	font-size: 5vw;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 800;
+
+}
+
+.area3{
+	margin-left: 120vw;
+	height: 100vh;
+		background-color: #e7e7e7;
+}
+
+.area3_title {
+	font-family: boldMaax;
+	font-size: 10vw;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.area3_text {
+	font-family: Maax;
+	font-size: 1vw;
+	
+	margin-top: 2vh;
+}
+
+.ender {
+  width: 50vw;
+  height: 80vh;
+  margin-top: 10vh;
+  background-color: #949494;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.wrapper2 {
+  margin-left: 5vw;
+  margin-top: 7.5vh;
+  width: 60vw;
+  height: 85vh;
+  display: inline-block;
+  background-color: white;
+
+}
+
+
+.wrapper_2_title {
+  color: black;
+  font-size: 5vw; 
+  font-family: boldMaax;
+  margin-top: 3.5vh;
+  margin-left: 5vw;
+  display: inline-block;
+}
+
+.wrapper_2_text {
+  color: black;
+  margin-top: 5vh;
+  word-spacing: 10px;
+  width: 30vw;
+  font-size: 1vw;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  margin-left: 15vw;
+}
+

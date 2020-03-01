@@ -1,0 +1,292 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+
+}
+
+body::after{
+   content:url(imgages/moukh.png)   // load images
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#bg {
+
+	height: 100vh;  
+	width: 100vw;   
+
+	/* Location of the image */
+  background-image: url(images/moukh.png);
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: white;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+}
+
+@media only screen and (max-width: 1200px) {
+  #bg {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+  background-image: url(images/moukh.png);
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  }
+	}
+
+@media screen and (max-width: 1200px) {
+  .elements {
+		
+		display: inline-block;
+		color: #333; 
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .elements2 {
+    
+    display: inline-block;
+    color: #333; 
+    margin-left: 8vw;
+  }
+}
+
+
+.title {
+	margin-left: 2.5vw;
+	font-family: 'Alata', sans-serif;
+  	font-weight: 600;
+  	font-size: 4vw;
+  	color: #333; 
+
+}
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 5vh;
+    color: #333; 
+
+
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .elements1 {
+    display: inline-block;
+    color: #333; 
+    float: right;
+    margin-right: 7.5vw; 
+
+
+
+  }
+}
+
+#second {
+	height: 100vh;
+	
+
+
+
+
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 300vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.text_box {
+	width: 25vw;
+	height: 75vh;
+	
+	padding: 30px; 
+	font-family: 'Alata';
+	font-size: 1.4vw;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .text_box {
+	width: 50vw;
+	height: 50vh;
+	font-size: 31px;
+
+
+  }
+}
+
+.box {
+	width:50vw;
+	height: 90vh;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.title_2 {
+
+	position: absolute;
+	font-family: 'Alata', sans-serif;
+  	font-weight: 600;
+  	font-size: 5vw;
+  	margin-top: 40vh;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .title_2 {
+  	margin-left: 35vw;
+  	font-size: 10vw;
+  	position: absolute;
+  	bottom: 10%;
+
+
+  }
+}
+
+.box_2 {
+	width: 25vw;
+	height: 100vh;
+
+   	font-size: 5vw;
+
+
+	margin-left: 25vw;
+	background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .box_2 {
+	
+	margin-left: 0;
+
+  }
+}
+
+#third {
+
+	width: 38vw;
+	height: 90vh;
+	margin-top: 5vh;
+	background-color: white;
+	margin-left: 2.5vw;	
+
+
+
+}
+
+.locations {
+	
+}
+
+.text_container {
+	margin-left: 10vw;
+	margin-top: 25vh;
+	font-family: 'Alata';
+	display: inline-block;
+		overflow: hidden;
+
+
+}
+
+@media screen and (max-width: 1200px) {
+  .text_container {
+	margin-top: 21vh;
+	margin-left: 6vw;
+	font-size: 20px;
+
+  }
+}
+
+.text_container_title {
+	
+	width: 20vw;
+}
+
+
+.text_container_text {
+	
+	width: 30vw;
+		display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+  .text_container_text {
+  	width: 37.5vw;
+
+
+  }
+}
+
+.vl {
+  border-left: 3px solid black;
+  height: 35vh;
+  	display: inline-block;
+  	  	margin-left: 5vw;
+  	 margin-top: 32.5vh;
+  	 font-family: 'Alata';
+  	 font-size: 0.7vw;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .vl {
+  	font-size: 25px;
+  	margin-left: 15vw;
+  	margin-top: 28vh;
+
+  }
+}
+
+.box_3 {
+	width: 100vw;
+	display: inline-block;
+
+	height: 90vh;
+	margin-top: 5vh;
+		background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
